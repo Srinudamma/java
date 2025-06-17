@@ -1,3 +1,11 @@
+/**
+ * This Java program demonstrates basic exception handling.
+ * It prompts the user to enter a number and attempts to divide 10 by that number.
+ * If the user enters 0, an ArithmeticException is caught.
+ * Any other unexpected exceptions are caught by a general Exception handler.
+ * The scanner is closed using a finally block to ensure proper resource handling.
+ */
+
 import java.util.*;
 public class ExceptionHandling 
 {
