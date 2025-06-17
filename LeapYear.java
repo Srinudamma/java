@@ -1,33 +1,26 @@
+/**
+ * This program checks whether a given year is a leap year.
+ * A leap year is:
+ * - Divisible by 4
+ * - Not divisible by 100 unless also divisible by 400
+ */
 
-import java.io.*;
 import java.util.*;
-class LeapYear
-{
-    static void leapyear(int year)
-    {
-        if(year%4==0)
-        {
-            System.out.println("leap year");
-        }
-        
-        else if(year%4==0 && year%100==0)
-        {
-            System.out.println("not a leap year");
-        }
-        else if(year%400==0)
-        {
-            System.out.println("leap year");
-        }
-        else
-        {
-            System.out.println("not a leap year");
-        }
 
+class LeapYear {
+
+    // Method to check leap year
+    static void leapyear(int year) {
+        if (year % 400 == 0) {
+            System.out.println("Leap year");
+        } else if (year % 100 == 0) {
+            System.out.println("Not a leap year");
+        } else if (year % 4 == 0) {
+            System.out.println("Leap year");
+        } else {
+            System.out.println("Not a leap year");
+        }
     }
-    public static void main(String ar[])
-    {
-        Scanner obj=new Scanner(System.in);
-        int a=obj.nextInt();
-        leapyear(a);
-    }
-}
+
+    public static void main(String ar[]) {
+        Scanner obj = new
