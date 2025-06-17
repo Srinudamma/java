@@ -1,3 +1,12 @@
+/**
+ * This Java program processes a given string in two main steps:
+ * 1. Extracts characters at even indices, reverses the resulting string.
+ * 2. Removes specific unwanted characters from the reversed string.
+ *
+ * Purpose:
+ * This could simulate filtering or obfuscating data by removing
+ * unwanted characters from a patterned, reversed string.
+ */
 
 
 public class EvenString {
