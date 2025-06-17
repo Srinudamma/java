@@ -1,3 +1,14 @@
+/*
+ * This program demonstrates method overloading in Java.
+ * 
+ * Multiple 'add()' methods are defined with different parameter lists:
+ *    - Two integers
+ *    - Three integers
+ *    - Two double values
+ *
+ * The program shows how the Java compiler selects the appropriate version
+ * of the 'add()' method based on the number and types of arguments passed.
+ */
 import java.io.*;
 import java.util.*;
 class MethodOverloading
