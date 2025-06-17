@@ -1,3 +1,17 @@
+/**
+ * This Java program simulates basic ATM operations for a user.
+ * It allows the user to:
+ *  - Deposit money (with a minimum deposit limit)
+ *  - Withdraw money (with sufficient balance check)
+ *  - Check the current account balance
+ * 
+ * The user can choose the type of account (Savings or Current), though currently
+ * both types are handled the same way using a single balance variable.
+ * 
+ * The program runs in a loop, continuously prompting the user for operations,
+ * mimicking a basic ATM interface in the console.
+ */
+
 import java.io.*;
 import java.util.*;
 public class Atm{
